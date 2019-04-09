@@ -1,5 +1,5 @@
 # Add  code here!
-def prime
+def prime(n)
   if n % 2 
     puts true
   else false
