@@ -1,5 +1,5 @@
 # Add  code here!
- def is_prime n
+ def prime? n
   foundDivider = false
    for d in 2..(n - 1)
     foundDivider = ((n % d) == 0) || foundDivider
