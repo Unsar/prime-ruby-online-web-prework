@@ -4,4 +4,3 @@
    if (n % d) == 0
     return false
    end
-  end
