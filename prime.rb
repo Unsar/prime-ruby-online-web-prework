@@ -1,5 +1,5 @@
 # Add  code here!
-def prime_test max
+def prime? max
     primes = []
     (1..max).each {|num| 
         if
