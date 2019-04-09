@@ -1,7 +1,7 @@
 # Add  code here!
- def prime? n
-  foundDivider = false
-   for d in 2..(n - 1)
-    foundDivider = ((n % d) == 0) || foundDivider
-   end
- end
+ def prime?(num)
+  (2..(num - 1)).each do |n|
+    return false if num % n == 0
+  end
+  true
+end
