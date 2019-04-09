@@ -5,7 +5,7 @@ def prime? max
         if
             (2..num-1).all? {|denom| num%denom >0}
         then
-            primes.push(num)
+            primes.push(num) puts true
         end
     }
     puts primes
