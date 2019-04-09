@@ -4,3 +4,4 @@ def prime
     puts true
   else false
 end
+end
