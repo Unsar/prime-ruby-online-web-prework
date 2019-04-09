@@ -1,8 +1,13 @@
 # Add  code here!
- def prime?(num)
-  (2..(num - 1)).each do |n|
-    if num % n == 0 || num 
-  end
-  true
+def prime_test max
+    primes = []
+    (1..max).each {|num| 
+        if
+            (2..num-1).all? {|denom| num%denom >0}
+        then
+            primes.push(num)
+        end
+    }
+    puts primes
 end
 
